@@ -1,0 +1,152 @@
+
+
+	s/* Alex Domínguez */
+*			{margin:0;	padding:0;}
+body		{background:url('../Media/img/Comunes/ParentalWallpaper.jpg')  center; background-size:100% 100%; font-family:'Helvetica'; }
+
+header 		{position:relative;	z-index:99;	width:1200px;	height:150px;	
+				background:url('../Media/img/Comunes/HeaderConcierto.jpg'); background-size:100% 100%;	}
+
+	header img		{position:relative;	bottom:15px;	left:25px; margin-top:40px; margin-left:425px;}
+	header img:hover	{-webkit-transition: all 1s ease-in-out;	-moz-transition: all 1s ease-in-out;	-o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out;	transition:1s;	transform:scale(1.2);}
+
+/* Caja */
+section#contenedor	{width:1200px;	height:1800px;	margin:0 auto;	overflow:hidden;	margin-top:35px;	
+						margin-bottom:35px;	box-shadow: -3px -1px 20px 1px #111; }
+
+/* Inicio de la barra de Navegación */
+/* Color de la barra 	*/
+nav 			{width:100%; height:50px; position:relative; display:block; background-color:#000000; 
+				border-top: 1px solid #dedede; box-shadow: 0 2px 2px -1px rgba(0,0,0,0.055); right: 1px;}
+	
+	nav ul 	{margin:0;	padding:0;}
+	
+	#BarraNav	{position:relative;	bottom:20px;	left:345px;}
+	/* Color de las cajas */
+	nav ul li 	{display: inline-block;	list-style-type:none; background-color:#BDBDBD; z-index:100; 
+				-webkit-transition: 	all 0.2s;
+				-moz-transition: 		all 0.2s;
+				-ms-transition: 		all 0.2s;
+				-o-transition: 			all 0.2s;
+				transition: 			all 0.2s; 
+			}
+
+	/* Color de la flecha */
+	nav > ul > li > a > .X,
+	nav > ul > li > div ul > li > a > .X 
+			{ height:0;	width:0;	display:inline-block;	vertical-align:middle;
+				border-top: 4px solid #fff; border-right: 4px solid transparent; border-left: 4px solid transparent;
+				-webkit-transition: 	color 0.1s linear;
+				-moz-transition: 		color 0.1s linear;
+				-o-transition: 			color 0.1s linear;
+				transition: 			color 0.1s linear; 
+			}
+
+	nav > ul > li > div ul > li > a > .X 		{border-bottom: 4px solid transparent;	border-top: 4px solid transparent;	
+											border-right: 4px solid transparent; border-left: 4px solid #FF0037;	margin: 0 0 0 8px; }
+		
+	/* Letra de las Cajas 	*/
+	nav > ul > li > a 						{color:#fff;	font-family:'Garamond';    display:block;    padding:10px 24px;	text-decoration:none; }
+	/* Color letra pulsada 	*/
+	nav > ul > li:hover > a 					{color:#000000;	}
+	/* Color pulsación Caja	*/
+	nav > ul > li:hover 					{background-color:#FFFFFF;}
+	
+	/* Color flecha pulsada 	*/
+	nav > ul > li:hover > a > .X 			{border-top-color: 	#000000; 	}
+		
+	nav > ul > li > div ul > li:hover > a > .X 	{border-left-color: #FE2E2E;	}
+      
+	nav > ul > li > div,
+	/* Desplegables del SobreEminem */
+	nav > ul > li > div ul > li > div 			{width:135px;	margin:0;	display:none;	 border-top:0;	border-radius: 0 0 4px 4px;
+											box-shadow: 0px 0px 0px 0px rgba(0,0,0, 0.5);	opacity:0;	position:absolute;
+											visibility:hidden;	
+											-webkit-transiton: 	opacity 0.2s;
+											-moz-transition: 	opacity 0.2s;
+											-ms-transition: 	opacity 0.2s;
+											-o-transition: 		opacity 0.2s;
+											-transition: 		opacity 0.2s;
+											z-index:99;
+										}
+	  
+	nav > ul > li > div ul > li > div 			{background-color:rgb(40,44,47);	border-radius: 0 4px 4px 4px;	
+											box-shadow: inset 2px 0 5px rgba(0,0,0,.15); margin-top: -42px;	right: -165px;}
+											
+	nav > ul > li:hover > div,
+	
+	nav > ul > li > ul > li:hover > div			{display:block;	opacity:1;	visibility:visible; }
+	
+	nav > ul > li > div ul > li,
+	nav > ul > li > div ul > li > div ul > li 		{display:block;	position:relative; }
+
+	nav > ul > li > div ul > li > a,
+	/* Letra de los desplegables */
+	nav > ul > li > div ul > li > div ul > li > a 	{color:#fff; display:block; padding: 12px 24px; text-decoration:none; font-family:'Garamond'; 
+											position:relative; z-index:99;}
+	nav > ul > li > div ul > li:hover > a		{color:#000000;}
+	/* Color desplegable pulsado 	*/
+	nav > ul > li > div ul > li:hover > a 		{background-color:#fff;	}
+  
+	#BarraNav		{position:relative;	top:5px; 	left:425px;	}
+	
+/* Cuerpo */
+section#Cuerpo 	{position: relative; width: 1200px; height: 1500px; background-color: #fff;
+						border-top: 2px solid #dedede; box-shadow: 0px 3px 20px 0px #111; z-index: 5;}
+						
+						
+/* Aside Izquierdo */	
+#Izq			{width:190px; height:99.9%; background-color:#212121; box-shadow: 3px 2px 20px 1px #222; position:relative; bottom:100px; left:0px;	}
+
+	/* Caja de los links */
+	#NavIzq			{width:190px; height:400px; margin-top:0px; }
+
+	#Links			{text-align:center; width:100%;  }
+	#Links li			{position:relative; left:-40px; right:0px; display: block; padding-top:25px; margin-top:100px; }
+	#Links li a		{padding: 5px 37px 5px 37px; border-style:solid; border-width:1px; border-color:#ccc; background-color:#c11414; 
+						text-decoration:none; color:#fff; font-family:'Helvetica'; font-size:11pt; font-weight:bold; 
+						box-shadow: 0px -2px 0px 0px rgba(122,122,122,0.8);}
+	#Links li a:hover	{background-color:#F3AC42;	color:#000; box-shadow: 3px -5px 2px 0px rgba(122,122,122,0.8); }
+		
+	#Links2			{text-align:center; width:100%;  }
+	#Links2 li		{position:relative; left:-40px; right:0px; display: block; margin-top:100px;margin-bottom:70px; padding: 5px 37px 5px 37px; 
+						border-style:solid; border-width:1px; border-color:#ccc; background-color:#F3AC42; text-decoration:none; 
+						color:#000; font-family:'Helvetica'; font-size:11pt; font-weight:bold; 
+						box-shadow: 0px -2px 0px 0px rgba(122,122,122,0.8); }		
+	
+	#Izq a img 		{width:188px; margin-top:70px;}
+
+	
+/* Única característica de la parte central, el resto irá en otros .css */
+section#Central	{width:810px; height:99.8%; position:relative; left:195px; bottom:106.5%; float:left; background:url('../Media/img/Ppal/FondoCentralBlanco.jpg') no-repeat center; background-size:100% 100%;}
+
+
+/* Aside Derecho */
+#Der			{width:190px; height:99.9%; background-color:#212121; box-shadow: -3px 2px 20px 1px #222; position:relative; 
+						bottom:106.57%; margin-left:1010px;  }
+	#Der a img 		{margin-left:10px; margin-top:100px;}
+/* Animaciones de las imágenes */
+	#Youtube :hover	{-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out;transition:1s; transform:scale(1.1);}
+
+
+	#Spotify :hover	{-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out; transition:1s; transform:scale(1.1);}
+
+	#Twitter :hover	{-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out; transition:1s; transform:scale(1.1);}
+
+						
+/* PIE */
+footer			{position:relative; top:0px; margin: 0 auto; width:1200px;	height:100px; background-color:#BDBDBD; }
+	
+	#Copy			{position:absolute; 	float:left;	margin-top:5px; 					width:900px; 	height:80px;  }
+		#Copy p 			{position:absolute; top:13px;  	left:170px; 	font-family:'Helvetica'; 	font-size:13pt; 	color:#000; }
+
+	#Contacto		{position:absolute; 	float:right;	margin-top:5px; margin-left:900px; 	width:300px; 	height:80px;  }
+		#Contacto a p	{position:absolute; top:13px;  	left:65px; 	font-family:'Helvetica'; 	font-size:13pt; 	color:#000; text-decoration:none; padding:0;}
+		#Contacto a img	{position:absolute; bottom:15px; left:5px; 	padding:0;}
+	
+	
+	

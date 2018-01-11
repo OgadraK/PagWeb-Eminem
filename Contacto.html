@@ -1,0 +1,148 @@
+<!Doctype html>
+	<!-- Alex Domínguez - 2ºTrimestre - 1º DAM -->
+<html lang = "es">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial.scale=1, maximun-xcalle=1">
+	
+		<!-- CSS --> <!--  -->
+		<link rel="stylesheet" href="Stylesheets/Estilo general y cabecera.css">
+		<link rel="stylesheet" href="Stylesheets/Contacto.css">
+		<!-- Icono -->
+		<link rel="shortcut icon" href="Media/img/Comunes/icono.ico" type="image/x-icon"/> 
+		
+		<title> Eminem: Contacto </title>
+	</head>
+	
+	<body>
+		<section id = "contenedor">
+			<header>
+				<a href="http://www.eminem.com/" target="_blank"> 
+					<img  id="logo" src="Media/img/Comunes/LetrasLogo.jpg" alt = "LogoEminem" style="width:300px; height: 100px;"/>
+				</a>
+			</header>
+			
+			<nav>
+				<ul id="BarraNav">
+					<li><a href="Index.html">									Home									</a></li>
+					<li><a href="#">											Sobre Eminem	<span class="X"></span>	</a>
+						<div>
+							<ul>
+								<li><a href="Álbumes.html">						Álbumes									</a></li>
+								<li><a href="Multimedia.html">					Multimedia								</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="Contacto.html">								Contacto								</a></li>
+				</ul>
+			</nav>
+			
+			<section id="Cuerpo">				
+				
+				<aside id = "Izq">
+					<article id ="NavIzq">
+						<ul id="Links">
+													<!-- Alt + 0160 = Espacios en blanco en ASCII para cuadrar el texto -->
+							<li>	<a href="http://shop.eminem.com/"		target="_blank">      Tienda         </a></li>
+							<li>	<a href="http://www.eminem.com/events"	target="_blank">      Eventos       </a></li>
+							<li>	<a href="http://www.eminem.com/lyrics"	target="_blank">        Letras        </a></li>
+							
+						</ul>
+						<ul id="Links2">
+							<li>	iTunes:albumes</li>
+						</ul>
+					</article>
+					<a href="https://itunes.apple.com/es/album/marshall-mathers-lp2-deluxe/id731947551?app=itunes&ign-mpt=uo%3D4" 	target="_blank" >	
+						<img src="Media/img/Comunes/The Marshall Mathers LP2.jpg" 		alt="The Marshall Mathers LP2">	</a>
+						
+					<a href="https://itunes.apple.com/es/album/recovery-deluxe-edition/id380937152?app=itunes&ign-mpt=uo%3D4" 		target="_blank">		
+						<img src="Media/img/Comunes/Recovery.jpg" 						alt="Recovery"> 				</a>
+					
+					<a href="https://itunes.apple.com/es/album/relapse/id315993251" 												target="_blank">													
+						<img src="Media/img/Comunes/Relapse.jpg" 						alt="Relapse">					</a>
+				</aside>
+				
+				<section id="Central">
+					<div class="Formulario">
+						<h2>Contacta con el creador</h2>		
+						<hr id="hr">
+						<img id="Kings" src="Media/img/Contacto/Kings never die.jpg" alt="Kings" style="width: 350px; height: 300px;">
+						
+						<!-- Todo el cuestionario -->
+						<form method="get" id="registro" name="registro">
+							<div class="Elementos">
+								<label>Nombre:</label><br>
+								<input type="text" 		name="nombre" 		id="nombre" value=""><br>
+							</div>
+							
+							<div class = "Elementos">
+								<label>Apellidos</label><br>
+								<input type="text" 		name="apellidos" 	id="apellidos" value=""><br>
+							</div>
+							
+							<div class="Elementos">
+								<label>Email:</label><br>
+								<input type="text" 		name="mail" 		id="mail" value=""><br>
+							</div>
+							
+							<div class="Elementos">
+								<label>Asunto:</label><br>
+								<input type="text" 		name="asunto" 		id="asunto" value=""><br>
+							
+								<select id="categ">
+									<option value="categoria">Selecciona categoría</option>
+									<option value="duda">Duda general</option>
+									<option value="sugerencia">Sugerencia</option>
+									<option value="queja">Queja</option>
+								</select>
+							</div>
+							
+							<div class="Elementos">
+								<label>Comentario:</label><br>
+								<textarea cols="30" rows="4" 	name="comentario" 	id="comentario"></textarea><br>
+							</div>
+							
+							<div id="radiobuttons">
+								<input type="submit" 	name="boton1" 		id="boton1" value="Enviar datos" onclick = "">
+							
+								<input id="radioUno" type="radio" name="sexo" value="Hombre" checked> Hombre
+								<input id="radioDos" type="radio" name="sexo" value="Mujer"> Mujer
+							</div>
+							
+							<div id="suscribir">
+								<input type="checkbox" name="publicidad" value="Suscribirse al boletín"> Suscribirse al boletín mensual de conciertos y canciones
+							</div>
+						</form>
+					</div>
+					
+					<img id = "Closer" src = "Media/img/Contacto/Closer.jpg" alt="Closer" style="width: 700px; height: 315px;">
+				</section>
+				
+				<aside id="Der">
+					<div id="Redes Sociales">
+						<a id="Youtube" 	href="https://www.youtube.com/user/EminemVEVO"					target="_blank">
+							<img src="Media/img/Comunes/ym.png" 	alt="Youtube" 	style="width:170px; height:240px;">	</a>
+						
+						<a id="Spotify" 	href="https://play.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"	target="_blank">
+							<img src="Media/img/Comunes/sm.png" 	alt="Spotify" 	style="width:170px; height:240px;">	</a>
+						
+						<a id="Twitter" 	href="https://twitter.com/eminem?lang=es"						target="_blank">
+							<img src="Media/img/Comunes/tm.png" 	alt="Twitter" 	style="width:170px; height:240px;">	</a>
+					</div>
+				</aside>
+			</section>
+			
+			<footer>
+				<div id="Copy">
+					<p> © copyright DESARROLLO DE APLICACIONES Alejandro Domínguez de la Peña 2017  </p>
+				</div>
+				<div id="Contacto">
+					<a href=mailto:alex9vip@hotmail.com> 
+						<p>	¡Contacta con el creador! </p>
+						<img id="ImgMail" src="Media/img/Comunes/Mail.png" alt="mailicon" style="width:50px; height:50px;">
+					</a>
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>

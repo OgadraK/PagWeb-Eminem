@@ -1,0 +1,30 @@
+
+
+	form #boton1		{margin: 5px 5px 5px 5px;}
+	
+	.Formulario		{width:700px; height:400px; background-color:#f0e9cd; background:url('../Media/img/Contacto/Bg.jpg'); margin: 0 auto; color:blue; font-weight:bold;
+						padding-top:20px; padding-bottom:20px; position:relative; top:30px; border: 1px solid #000; font-family: 'Garamond';  box-shadow:-5px -2px 40px 5px #111;}
+	
+	.Formulario h2	{font-size:20pt; font-family:'Garamond'; position:relative; left:210px;}
+	
+	#hr				{position:relative; top:20px; }
+
+	.Formulario input	{border: 2px solid #000;}
+	
+	#registro		{position:relative; bottom:280px; left:20px; }
+	
+	.Elementos		{border: 2px solid #000;	padding-top:3px; padding-bottom:3px; padding-left:10px; margin-right:450px; margin-top:3px;}
+	
+	#categ			{margin-top:2px;}
+	
+	textarea 			{resize:none; border: 2px solid #CA3A3A;}
+	
+	#radiobuttons	{border: 2px solid #000; margin-top:5px; 	margin-left:0px; margin-right:450px; }
+	
+	#suscribir		{position:relative; left:280px; bottom:10px; margin-top:-25px; 	margin-left:-10px; margin-right:305px;  }	
+	
+	
+	
+	#Kings			{position:relative; left:333px;	top:30px; border: 2px solid #000; 	box-shadow:-3px -1px 20px 1px #111;}
+	
+	#Closer			{position:relative; left:53px; 	top:35px; border: 2px solid #000; 	 box-shadow:-5px -2px 40px 5px #111;}

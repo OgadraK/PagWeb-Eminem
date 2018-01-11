@@ -1,0 +1,20 @@
+
+	
+	#Multim		{position:relative; width:780px; height:780px; bottom:0px; margin-left:10px; margin-top:10px; }
+		
+	.Reproductor1	{display:flex; float:left; width:380px; height:280px; bottom:0px; margin-left:5px; margin-top:0px;  }
+	.Reproductor2	{display:flex; float:left; width:380px; height:280px; bottom:0px; margin-left:5px; margin-top:0px;  }
+	.Reproductor3	{display:flex; float:left; width:380px; height:280px; bottom:0px; margin-left:5px; margin-top:40px; }
+	.Reproductor4	{display:flex; float:left; width:380px; height:280px; bottom:0px; margin-left:5px; margin-top:40px; }
+	
+	.Titulo1		{display:flex; float:left; width:380px; height:40px; bottom:0px; margin-left:5px; margin-top:10px; font-size:11pt; 
+						font-family:'Arial black'; text-align:center; color:#000;}
+	
+	.Titulo2		{display:flex; float:left; width:200px; height:40px; bottom:0px; margin-left:5px; margin-top:10px; font-size:11pt; 
+						font-family:'Arial black'; text-align:center; color:#000; padding-left:90px; }
+	
+	.Titulo3		{display:flex; float:left; width:380px; height:40px; bottom:0px; margin-left:5px; margin-top:10px; font-size:11pt; 
+						font-family:'Arial black'; text-align:center; color:#000;}
+	
+	.Titulo4		{display:flex; float:left; width:380px; height:40px; bottom:0px; margin-left:5px; margin-top:10px; font-size:11pt; 
+						font-family:'Arial black'; text-align:center; color:#000;}

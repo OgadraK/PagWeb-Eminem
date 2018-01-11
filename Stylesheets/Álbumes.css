@@ -1,0 +1,31 @@
+
+
+	#Albumes		{position:relative; width:100%; height:100%; background:#fff;}
+	
+	.AImpar				{position:relative; float:left; 	width:99%; 	height:280px;	margin-top:15px; 	margin-left:5px;}
+		
+		.PImpar			{position:relative; float:right; 	width:61%; 	height:260px; 	margin-top:15px; 	margin-right:10px; 	box-shadow:-3px -1px 20px 1px #111; 
+						background:url(../Media/img/Álbumes/Papel.jpg);  background-size:100% 100%; color:#fff; text-align:justify;  padding-left:10px; padding-right:10px;}
+						
+			.PImpar h1		{font-family:Garamond; font-size:20pt; text-align:center; 	margin-top:50px; margin-bottom:0px;}
+			.PImpar p 		{font-family:arial black; margin-top:-45px;}
+		
+		.AImpar img			{width:260px; height:260px; float:left; margin-top:15px; margin-left:15px;
+							box-shadow:-5px -2px 40px 5px #111;}
+							
+							
+	.APar				{position:relative; float:left; 	width:99%; 	height:280px;	margin-top:15px; 	margin-left:5px;}
+		
+		.PPar			{position:relative; float:left; 	width:61%; 	height:260px; 	margin-top:15px; 	margin-left:10px; 	box-shadow:-3px -1px 20px 1px #111; 
+						background:url(../Media/img/Álbumes/Papel.jpg);  background-size:100% 100%; color:#fff; text-align:justify;  padding-left:10px; padding-right:10px;}
+						
+			.PPar h1		{font-family:Garamond; font-size:20pt; text-align:center; 	margin-top:50px; margin-bottom:0px;}
+			.PPar p 		{font-family:arial black; margin-top:-45px;}
+		
+		.APar img		{width:260px; height:260px; float:right; margin-top:15px; margin-right:15px;
+							box-shadow:-5px -2px 40px 5px #111;}
+	
+		/*#NavPag			{position:relative; float:left; 	width:99%; 	height:50px;	margin-top:5px; 	margin-left:5px; background:red;}
+			#NavPag a		{text-decoration:none;	color:blue;	font-family:Garamond; font-size:20pt; text-align:center; padding-left:20px;}							
+		
+		Fuente		-->		Garamond	*/

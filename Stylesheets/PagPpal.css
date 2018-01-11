@@ -1,0 +1,30 @@
+
+	
+	#Presentacion		{position:relative; width:780px; height:780px; bottom:0px; margin-left:10px; margin-top:10px; }
+	
+	#Presentacion .P1		{width:780px; position:relative; bottom:0px; }
+	#Presentacion .P1 > p	{width:550px;font-size:11pt; font-family:'Arial black'; text-align:justify; color:#000; margin-top:5px; }
+	
+	#Presentacion .P1 > img	{width:200px; height:200px; position:relative; left:25px; top:50px; box-shadow:-3px -1px 20px 1px #111; border-radius:11%;}
+	
+	#Presentacion p			{font-size:11pt; font-family:'Arial black'; text-align:justify; color:#000; margin-top:10px; float:left;}
+	
+/* Slider show */
+.slide			{width:550px; height:300px; position:absolute; left:15.5%; top:53.5%; 	overflow:hidden; box-shadow:-5px -2px 40px 5px #111; border-radius:7%;}
+	.slide li > img	{width:550px; height:320px;}
+	.slide ul		{padding:0; 	display:flex; 	animation: cambio 8s infinite alternate;	}
+	.slide li			{list-style:none;}
+	
+	@keyframes cambio {	0% 		{margin-left: 0;}
+						0% 		{margin-left: 0;}
+						20% 	{margin-left: 0;}
+						25% 	{margin-left: -100%;}
+						45%		{margin-left: -100%;}
+						50%		{margin-left: -200%;}
+						70%		{margin-left: -200%;}
+						75%		{margin-left: -300%;}
+						100%	{margin-left: -300%;}		}
+						
+	
+	.slide:hover	{-webkit-transition: all 1s ease-in-out;	-moz-transition: all 1s ease-in-out;	-o-transition: all 1s ease-in-out;
+						transition: all 1s ease-in-out;	transition:1s;	transform:scale(1.25);}
